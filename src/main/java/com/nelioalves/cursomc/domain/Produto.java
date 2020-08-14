@@ -1,4 +1,4 @@
-package com.nelioalves.cursomc;
+package com.nelioalves.cursomc.domain;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -13,7 +13,6 @@ import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
-import com.nelioalves.cursomc.domain.Categoria;
 
 @Entity
 public class Produto implements Serializable {
